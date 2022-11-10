@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Menu slider and modal website</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="images/1.png" alt=""/>
+      </div>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Обо мне</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Мой блог</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Блог обо всём</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa est cumque, autem tempore incidunt ea sed eum mollitia? Facere laudantium autem perferendis voluptates harum soluta neque animi veritatis corporis cumque.</p>
+      <button class="cta-btn" id="open">Подписаться</button>
+    </header>
+    <div class="container">
+      <img src="images/2.jpg"/>
+      <h2>О чём этот блог?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit consectetur accusantium nesciunt fugiat omnis? Nisi officiis, doloribus iusto hic quisquam dolores illo commodi, omnis atque, voluptas at natus iure?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, eos magni reiciendis nemo blanditiis voluptate recusandae optio sed ipsam nihil repellat quibusdam deleniti eligendi? Numquam soluta autem omnis saepe quo?</p>
+      <h2>Здесь много чего интересного</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident sapiente perspiciatis doloremque aut beatae quaerat. Amet cupiditate aperiam, odio est maxime ipsam, autem maiores, sapiente quod mollitia ullam hic!</p>
+      <h2>А именно:</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, commodi nam! Rerum veritatis dolor necessitatibus sequi aliquam, fugit accusamus laborum vitae possimus natus, asperiores fuga pariatur sed consequuntur odio hic.</p>
+    </div>
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header"><h3>Зарегистрироваться</h3></div>
+        <div class="modal-content">
+          <p>Зарегистрируйтесь, чтобы получать свежие новости и многое другое</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Имя</label>
+              <input type="text" name="name" id="name" placeholder="Введите имя" class="form-input"/>
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Введите e-mail" class="form-input"/>
+            </div>
+            <div>
+              <label for="password">Пароль</label>
+              <input type="password" id="password" placeholder="Введите пароль" class="form-input"/>
+            </div>
+            <div>
+              <label for="password2">Подтвердите пароль</label>
+              <input type="password" id="password2" placeholder="Введите пароль повторно" class="form-input"/>
+            </div>
+            <input type="submit" value="Отправить" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="credit">© Strawberry.inc🍓</div>
+    <script src="script.js"></script>
+  </body>
+</html>
